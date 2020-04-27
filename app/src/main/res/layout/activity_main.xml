@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"><![CDATA[
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+
+
+    ]]><?xml version="1.0" encoding="utf-8"?>
+    <EditText
+        android:id="@+id/editText"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="320dp"
+        tools:text="Password"
+        android:layout_width="285dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText2"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="266dp"
+        android:layout_width="283dp"
+        android:layout_height="36dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textEmailAddress" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="126dp"
+        android:layout_height="39dp"
+        android:background="@android:color/darker_gray"
+        android:text="Login"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/holo_orange_dark"
+        android:textColorHint="@android:color/holo_orange_dark"
+        android:textColorLink="@android:color/holo_orange_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintHorizontal_bias="0.251"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        tools:layout_editor_absoluteY="415dp" />
+
+        <Button
+            android:id="@+id/button"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="415dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+    </LinearLayout>
+</LinearLayout>
